@@ -1,0 +1,50 @@
+/* body要素のスタイル */
+body {
+  background-color: #f1f1f1;  /* 背景色 */
+  font-family: Arial, sans-serif;  /* フォント */
+  margin: 0;  /* マージンをリセット */
+}
+
+/* ページ全体を包む要素のスタイル */
+.wrapper {
+  max-width: 800px;  /* ページの最大幅 */
+  margin: 0 auto;  /* 中央寄せ */
+  padding: 20px;  /* 余白 */
+}
+
+/* ページタイトルのスタイル */
+.title {
+  font-size: 36px;  /* フォントサイズ */
+  font-weight: bold;  /* フォントの太さ */
+  margin-bottom: 20px;  /* 下のマージン */
+}
+
+/* リンクのスタイル */
+a {
+  color: #555;  /* リンクの色 */
+  text-decoration: none;  /* 下線をなくす */
+}
+
+a:hover {
+  color: #000;  /* マウスオーバー時のリンクの色 */
+}
+
+/* セクションタイトルのスタイル */
+.section-title {
+  font-size: 24px;  /* フォントサイズ */
+  font-weight: bold;  /* フォントの太さ */
+  margin-bottom: 10px;  /* 下のマージン */
+}
+
+/* テキストのスタイル */
+p {
+  line-height: 1.5;  /* 行間 */
+  margin-bottom: 20px;  /* 下のマージン */
+}
+
+/* 画像のスタイル */
+img {
+  max-width: 100%;  /* 画像の最大幅 */
+  height: auto;  /* 高さは自動で調整 */
+  margin-bottom: 20px;  /* 下のマージン */
+}
